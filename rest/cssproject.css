@@ -1,0 +1,26 @@
+h1{
+    border-radius: 8px;
+}
+
+.class-1{
+    border: solid black ;
+
+}
+
+.class-2{
+    background-color: aqua;
+    border: 7px double darkblue;
+}
+
+.class-3{
+    background-color: yellow;
+    border-color:bisque;
+    border: 15px dotted darkorchid
+    
+}
+
+.class-4{
+    background-color: black;
+    color: white;
+    border: 15px solid red;
+}

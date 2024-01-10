@@ -1,0 +1,145 @@
+.Überschrift{
+    color: black;
+    text-align:center;
+    font-weight: 1100;
+    font-size: xx-large;
+    margin-top: 70px;
+    margin-right:50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.Text{
+    font-weight: 500;
+    font-size: x-large;
+    text-align: center;
+    margin-left: 100px;
+    margin-right:100px;
+    margin-top:20px;
+    padding:5px;
+    margin-bottom:50px;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.Button1{
+    width: 50px;
+    height:auto;
+    border: 3px solid black;
+    border-radius:10px;
+    margin-left:10px;
+    text-decoration: none;
+    background-color: yellow;
+    padding: 30px;
+    margin-top: 15px;
+
+}
+.Button2,.Button3{
+    width: 50px;
+    height: 40px;
+    border:  3px solid black;
+    border-radius: 10px;
+    margin-left:20px;
+    margin-top:20px;
+    text-decoration: none;
+    background-color: yellow;
+    padding: 30px;
+
+
+}
+.Wochen{
+    font-size:larger;
+    margin-bottom:50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.bg{
+    outline: auto;
+    outline-width: 3px;
+    border-radius: 7px;
+}
+body{
+    background-color: beige;
+}
+
+.nummer1, .nummer2, .nummer3{
+    color: darkolivegreen;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 3%;
+    margin-top: 10px;
+
+}
+
+body{
+    background-color: beige;
+
+}
+
+.Mainpage{
+    width: 50px;
+    height:10px;
+    border: 3px solid black;
+    border-radius:10px;
+    margin-left:3px;
+    text-decoration: none;
+    padding: 5px;
+    background-color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    position: static;
+}
+
+.mainpage:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+.text_woche_1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-right: 60px;
+    margin:auto;
+    font-size: x-large;
+    padding-top: 50px;
+    
+}
+th{
+    color:red;
+    font-family: cursive;
+    font-weight: bold;
+
+}
+
+td{
+    font-family: cursive;
+}
+
+.wochenplan{
+    text-align: center;
+    position: sticky;
+    padding-left:20px;
+    position: static;
+
+}
+
+.Hauptseite{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.button_text_woche1{
+    background-color: #04AA6D; /* Green */
+    border: 2px solid red;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom:10px;
+}
+
+.button_text_woche1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
