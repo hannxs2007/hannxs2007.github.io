@@ -29,7 +29,7 @@
     border-radius:10px;
     margin-left:10px;
     text-decoration: none;
-    background-color: yellow;
+    background-color: #FF00FF;
     padding: 30px;
     margin-top: 15px;
 
@@ -42,7 +42,7 @@
     margin-left:20px;
     margin-top:20px;
     text-decoration: none;
-    background-color: yellow;
+    background-color: #FF00FF;
     padding: 30px;
 
 
@@ -129,4 +129,36 @@ td{
 .button_text_woche1:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
+.text_woche_1{
+    border-right: 2px solid black;
+    cursor: pointer;
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+   }
+   @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+   @keyframes blink-caret {
+    from, to { border-color: transparent }
+     50% { border-color: black; }
+ }
 
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.5s, color 0.5s;
+}
+   
+   .dark-mode body {
+    --bg-color: black;
+    --text-color: beige;
+}
+   
+   .light-mode body {
+    --bg-color: beige;
+    --text-color: black;
+}
+
+.dark_mode_button{
+    text-align:center;
+}
