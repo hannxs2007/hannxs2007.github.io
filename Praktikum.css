@@ -86,13 +86,13 @@ body{
     font-size: medium;
     position: static;
 }
-.text_woche_1{
-    font-family: Arial, Helvetica, sans-serif;
+.wochetext{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: left;
-    padding-left: 60px;
+    padding-left: 65px;
     margin:auto;
-    font-size: x-large;
-    padding-top: 50px;
+    font-size: xx-large;
+    padding-top: 20px;
     
 }
 th{
@@ -109,6 +109,7 @@ td{
     position: sticky;
     padding-left:20px;
     position: static;
+    font-size: larger;
 
 }
 .Hauptseite{
@@ -129,7 +130,6 @@ td{
 .button_text_woche1:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-
 
 body {
     background-color: var(--bg-color);
@@ -152,8 +152,21 @@ body {
 .night_shift_button{
     height: 60px;
     width: 60px;
+    color:aqua;
 }
 .night_shift_button:hover{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.30), 0 17px 50px 0 rgba(0,0,0,0.25);    
 }
+.nebeneinander {
+    font-size: 0;
+   }
+   
+   .wochenplan, .text_woche_1 {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    vertical-align: top;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
 
+   }
