@@ -58,6 +58,7 @@
     outline: auto;
     outline-width: 3px;
     border-radius: 7px;
+    margin-left: 30px;
 }
 body{
     background-color: beige;
@@ -140,13 +141,13 @@ body {
 } 
 
    .dark-mode body {
-    --bg-color: black;
+    --bg-color: #001e3f;
     --text-color: beige;
 }
 
    .light-mode body {
     --bg-color: beige;
-    --text-color: black;
+    --text-color:  #001e3f;
 }
 .Button1:hover, .Button2:hover, .Button3:hover{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.30), 0 17px 50px 0 rgba(0,0,0,0.25);
@@ -172,3 +173,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 
    }
+.dark_mode_button{
+    height: 25px;
+    color: black;
+    border:black;
+    
+}
