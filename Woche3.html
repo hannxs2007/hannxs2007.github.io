@@ -1,29 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <link rel="stylesheet" href="Praktikum.css">
-    <title>Woche 3</title>
+    <title>Woche 1</title>
 </head>
 <body>
-    <h3 class="nummer3">22.1-26.1</h3>
+    <div><button type="checkbox" id="dark-mode" class="dark_mode_button" onclick="toggleTheme()">Dark Mode</button></div>
+    <label class="slider round" for="darkmode"></label><div><h3 class="nummer1"> 22.1-26.1 </h3></div>
+
+
+
+    
+
 
     <div class="wochenplan"> <table class="wochenplan"> <thead> <tr> 
-        <th>Time</th> <th>Activity</th> </tr> </thead>
+        <th>Uhrzeit</th> <th>Aktivität</th> </tr> </thead>
          <tbody> <tr> <td>9:00 - 10:00</td>
              <td>Activity X</td> </tr> <tr> <td>10:00 - 11:00</td>
-                 <td>Activity X</td> </tr> <tr> <td>11:00 - 12:00</td> <td>Activity X</td> </tr> 
-                 <tr> <td>12:00 - 13:00</td> <td>Lunch</td> </tr> <tr> <td>13:00 - 14:00</td>
+                 <td>Activity X</td> </tr> <tr> <td>11:00 - 12:00</td> <td> Activity X</td> </tr> 
+                  <tr> <td>12:00 - 13:00</td> <td>  Mittag </td> </tr> <tr> <td>13:00 - 14:00</td>
                     <td>Activity X</td> </tr> <tr> <td>14:00 - 15:00</td> <td>Activity X</td> </tr>
-                    <tr> <td>15:00 - 16:00</td> <td>Activity X</td> </tr>
+                  <tr> <td>15:00 - 16:00</td> <td>Activity X</td></tr>
                 </tbody> 
             </table> 
         </div>
 
-        <div class="text_woche_1"> <div class="tab"><button onClick="einblenden('text_woche_1'); return false;" id="Button_Text" class="button_text_woche1">Ablauf</button></div><br>
 
 
-        <div><h4 class="Hauptseite">Hauptseite:</h4></div>
-        <a class="Mainpage" href="http://127.0.0.1:5500/Praktikum.html">Mainpage</a>
-    
+        <div class="text_woche_1"> <div class="tab"><button onClick="showText" id="Button_Text" class="button_text_woche1">Ablauf</button></div><br>
+            <p class="wochetext" id="text_woche_1" style="display: none;">xxxxxxxxxxx
+            
+        </p></div>
+
+        <div class="nebeneinander">
+            <div class="wochenplan"></div>
+            <div class="text_woche_1"></div>
+           </div>
+
+    <div><h4 class="Hauptseite">Hauptseite:</h4></div>
+    <a class="Mainpage" href="http://127.0.0.1:5500/Praktikum.html">Mainpage</a>
+
+
+    <script src="Praktikum.js"></script>
+
 </body>
 </html>
