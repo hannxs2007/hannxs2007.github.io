@@ -138,7 +138,7 @@ body {
 } 
 
    .dark-mode body {
-    --bg-color:black;
+    --bg-color:#404040;
     --text-color: beige;
 }
 
