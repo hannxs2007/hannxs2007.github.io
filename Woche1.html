@@ -7,7 +7,7 @@
 </head>
 <body>
     <div><button type="checkbox" id="dark-mode" class="dark_mode_button" onclick="toggleTheme()">Dark Mode</button></div>
-    <label class="slider round" for="darkmode"></label><div><h3 class="nummer1"> 8.1-12.1 </h3></div>
+    <label class="slider round" for="dark-mode"></label><div><h3 class="nummer1"> 8.1-12.1 </h3></div>
 
 
 
@@ -28,7 +28,7 @@
 
 
 
-        <div class="text_woche_1"> <div class="tab"><button onClick="showText" id="Button_Text" class="button_text_woche1">Ablauf</button></div><br>
+        <div class="text_woche_1"> <div class="tab"><button onClick="showText" id="Button_Text" class="button_text_woche1">Ablauf</button></div>
             <p class="wochetext" id="text_woche_1" style="display: none;">Die erste Woche verging damit dass wir am<br>Montag sehr viel Input
             über HTML und CSS<br>gelernt.
             Am Ende des ersten Tages wurde uns<br>dann die Aufgabe gestellt das wir als Projekt
@@ -45,8 +45,8 @@
 
     <div><h4 class="Hauptseite">Hauptseite:</h4></div>
     <a class="Mainpage" href="http://127.0.0.1:5500/Praktikum.html">Mainpage</a>
-    <div><button href="http://127.0.0.1:5500/Woche3.html" class="vorherSeite"> <<< </button>
-    <button href="http://127.0.0.1:5500/Woche2.html" class="nächsteSeite"> >>> </button></button></div>
+    <div><button onclick="window.location.href = 'http://127.0.0.1:5500/Woche3.html';" class="vorherSeite"> <<< </button>
+    <button onclick="window.location.href = 'http://127.0.0.1:5500/Woche2.html';" class="nächsteSeite"> >>> </button></button></div>
 
 
     <script src="Praktikum.js"></script>

@@ -60,9 +60,7 @@
     border-radius: 7px;
     margin-left: 30px;
 }
-body{
-    background-color: beige;
-}
+
 .nummer1, .nummer2, .nummer3{
     color: blueviolet;
     text-align: center;
@@ -140,13 +138,13 @@ body {
 } 
 
    .dark-mode body {
-    --bg-color:#404040;
-    --text-color: beige;
+    --bg-color: beige;
+    --text-color: black;
 }
 
    .light-mode body {
-    --bg-color: beige;
-    --text-color:  black;
+    --bg-color: #404040;
+    --text-color:  white;
 }
 .Button1:hover, .Button2:hover, .Button3:hover{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.30), 0 17px 50px 0 rgba(0,0,0,0.25);
@@ -183,7 +181,11 @@ body {
 }
 .vorherSeite{
     margin-top:15px;
+    border-color: black;
+    color:blueviolet;
 }
 .nächsteSeite{
-    margin-left: ;
+    margin-left: 10px;
+    border:black;
+    color:blueviolet;
 }
