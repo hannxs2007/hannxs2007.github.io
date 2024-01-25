@@ -24,27 +24,25 @@
     
 }
 .Button1{
-    width: 50px;
-    height:auto;
+    width: 75px;
+    height:75px;
     border: 3px solid #d3d3d3;
     border-radius:10px;
     margin-left:10px;
     text-decoration: none;
     background-color: #FF00FF;
-    padding: 30px;
     margin-top: 15px;
 
 }
 .Button2,.Button3{
-    width: 50px;
-    height: 40px;
+    width: 75px;
+    height: 75px;
     border:  3px solid #d3d3d3;
     border-radius: 10px;
     margin-left:20px;
     margin-top:20px;
     text-decoration: none;
     background-color: #FF00FF;
-    padding: 30px;
 
 
 }
@@ -72,18 +70,22 @@
 }
 
 .Mainpage{
-    width: 50px;
-    height:10px;
+    width: 100px;
+    height: 20px;
     border: 1.5px solid black;
     border-radius:10px;
     margin-left:3px;
     text-decoration: none;
-    padding: 5px;
     background-color: blueviolet;
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
     position: static;
-    color: beige;
+    text-align: center;
+    color:beige;
+}
+.Mainpage:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); /* hover text-button*/
+
 }
 .wochetext{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
